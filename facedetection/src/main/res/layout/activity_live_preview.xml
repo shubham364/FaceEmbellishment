@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fireTopLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:keepScreenOn="true">
+
+    <com.google.firebase.samples.apps.mlkit.common.CameraSourcePreview
+        android:id="@+id/firePreview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp">
+
+        <com.google.firebase.samples.apps.mlkit.common.GraphicOverlay
+            android:id="@+id/fireFaceOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true" />
+    </com.google.firebase.samples.apps.mlkit.common.CameraSourcePreview>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
+        android:textColor="#FFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:id="@+id/control"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/firePreview"
+        android:background="#D9F3EC">
+
+        <ToggleButton
+            android:id="@+id/facingSwitch"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center_vertical"
+            android:background="@layout/toggle_style"
+            android:checked="true"
+            android:textOff=""
+            android:textOn="" />
+
+
+
+    </FrameLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/control">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Button1"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginBottom="9dp"
+                android:background="@layout/circle"
+                android:backgroundTint="#80F14E4E"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/Button2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginBottom="9dp"
+                android:background="@layout/circle"
+                android:backgroundTint="#80E9B7EB"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/Button3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginBottom="9dp"
+                android:background="@layout/circle"
+                android:backgroundTint="#80880202"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/Button4"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginBottom="9dp"
+                android:background="@layout/circle"
+                android:backgroundTint="#80C76806"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/Button5"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginBottom="9dp"
+                android:background="@layout/circle"
+                android:backgroundTint="#80D9D1F8"
+                android:text="B" />
+
+            <Button
+                android:id="@+id/Button6"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="29dp"
+                android:layout_marginBottom="9dp"
+                android:background="@layout/circle"
+                android:backgroundTint="#80E7F3DC"
+                android:text="B" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "518794288509",
+    "firebase_url": "https://faceembellishment-84dba.firebaseio.com",
+    "project_id": "faceembellishment-84dba",
+    "storage_bucket": "faceembellishment-84dba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518794288509:android:09546560b4505797",
+        "android_client_info": {
+          "package_name": "com.google.firebase.samples.apps.mlkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518794288509-sd2o7695at52c6i2ho65pas1tagg9gb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbpazoC0dSP2L6papcvz0gxdvrWQO55eY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518794288509-sd2o7695at52c6i2ho65pas1tagg9gb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

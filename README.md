@@ -15,7 +15,7 @@ Getting Started
 - [Add Firebase to your Android Project](https://firebase.google.com/docs/android/setup).
 - Run the sample on an Android device.
 - Choose LivePreviewActivity to see a demo of the following API:
-  - Face detection
+  - Face Contour detection which is used for Lip Embellishment.
 
 Hosting a Custom Model
 -----------
